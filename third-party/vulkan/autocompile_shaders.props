@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="UserMacros">
+    <VulkanTools>$(RepoRoot)\tools\VulkanSDK\1.0.61.1\Bin\</VulkanTools>
+  </PropertyGroup>
+	<ItemGroup>
+    <!--
+    <CustomBuild Include="$(ShadersRoot)\**\*.vert">
+      <Message>Compiling vertex shader... %(FullPath) to $(OutDir)\$([MSBuild]::MakeRelative($(RepoRoot), $(ShadersRoot)))%(FileName)%(Extension).spv</Message>
+      <Command>$(VulkanTools)\glslangValidator.exe -V %(FullPath) -o $(OutDir)\$([MSBuild]::MakeRelative($(RepoRoot), $(ShadersRoot)))%(FileName)%(Extension).spv</Command>
+      <Outputs>$(OutDir)\$([MSBuild]::MakeRelative($(RepoRoot), $(ShadersRoot)))%(FileName)%(Extension).spv</Outputs>
+    </CustomBuild>
+    -->
+  </ItemGroup>
+</Project>

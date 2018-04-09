@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\..\VulkanStack_dependency.props" />
+    <None Include="VulkanStack_internal.props" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="VulkanStack">
+      <UniqueIdentifier>{856b26f2-4944-4da9-bb83-5d02b5951568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VulkanStack\detail">
+      <UniqueIdentifier>{78524c75-e97d-41d6-aa07-e66b71fda458}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\VulkanStack\detail\DynamicSymbols.cpp">
+      <Filter>VulkanStack\detail</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

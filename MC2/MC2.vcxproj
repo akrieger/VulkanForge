@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug Static|Win32">
+      <Configuration>Debug Static</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug Static|x64">
+      <Configuration>Debug Static</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Static|Win32">
+      <Configuration>Release Static</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Static|x64">
+      <Configuration>Release Static</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E922D127-11AC-4041-90AE-12B89CF8AA49}</ProjectGuid>
+    <RootNamespace>MC2</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Static|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Static|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Projects\Windows\VSVARS.props" />
+    <Import Project="OutPaths.props" />
+    <Import Project="..\Projects\Windows\VS2017\ThirdPartyLibIncludePaths.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Projects\Windows\VSVARS.props" />
+    <Import Project="OutPaths.props" />
+    <Import Project="..\Projects\Windows\VS2017\ThirdPartyLibIncludePaths.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Projects\Windows\VSVARS.props" />
+    <Import Project="OutPaths.props" />
+    <Import Project="..\Projects\Windows\VS2017\ThirdPartyLibIncludePaths.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug Static|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Projects\Windows\VSVARS.props" />
+    <Import Project="OutPaths.props" />
+    <Import Project="..\Projects\Windows\VS2017\ThirdPartyLibIncludePaths.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Projects\Windows\VSVARS.props" />
+    <Import Project="OutPaths.props" />
+    <Import Project="..\Projects\Windows\VS2017\ThirdPartyLibIncludePaths.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Projects\Windows\VSVARS.props" />
+    <Import Project="OutPaths.props" />
+    <Import Project="..\Projects\Windows\VS2017\ThirdPartyLibIncludePaths.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Projects\Windows\VSVARS.props" />
+    <Import Project="OutPaths.props" />
+    <Import Project="..\Projects\Windows\VS2017\ThirdPartyLibIncludePaths.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release Static|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Projects\Windows\VSVARS.props" />
+    <Import Project="OutPaths.props" />
+    <Import Project="..\Projects\Windows\VS2017\ThirdPartyLibIncludePaths.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)MC2\src;$(SolutionDir)windows\glfw\include;$(SolutionDir)windows\freetype\include;$(SolutionDir)windows\glew\include;$(SolutionDir)windows\libpng;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(SolutionDir)MC2\src;$(SolutionDir)windows\glfw\include;$(SolutionDir)windows\freetype\include;$(SolutionDir)windows\glew\include;$(SolutionDir)windows\libpng;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'">
+    <IncludePath>$(SolutionDir)MC2\src;$(SolutionDir)external\excluded\boost;$(SolutionDir)external\SDL\include;$(SolutionDir)external\lpng1514;$(SolutionDir)external\glut;$(SolutionDir)external\boost;$(SolutionDir)external\glew-1.9.0-win32\glew-1.9.0\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Static|x64'">
+    <IncludePath>$(SolutionDir)MC2\src;$(SolutionDir)external\excluded\boost;$(SolutionDir)external\SDL\include;$(SolutionDir)external\lpng1514;$(SolutionDir)external\glut;$(SolutionDir)external\boost;$(SolutionDir)external\glew-1.9.0-win32\glew-1.9.0\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <CustomBuildAfterTargets>
+    </CustomBuildAfterTargets>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <CustomBuildAfterTargets />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'">
+    <LibraryPath>$(SolutionDir)external\excluded\boost\stage\lib;$(SolutionDir)external\glut;$(SolutionDir)external\glew-1.9.0-win32\glew-1.9.0\lib;$(LibraryPath)</LibraryPath>
+    <CustomBuildAfterTargets />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Static|x64'">
+    <LibraryPath>$(SolutionDir)external\excluded\boost\stage\lib;$(SolutionDir)external\glut;$(SolutionDir)external\glew-1.9.0-win32\glew-1.9.0\lib;$(LibraryPath)</LibraryPath>
+    <CustomBuildAfterTargets />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(SolutionDir)external\freetype\include;$(SolutionDir)MC2\src;$(SolutionDir)external\excluded\boost;$(SolutionDir)external\excluded\glfw\include\GLFW;$(SolutionDir)external\glew-1.9.0-win32\glew-1.9.0\include;$(SolutionDir)external\lpng166;$(SolutionDir)external\SDL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)external\excluded\boost\stage\lib;$(SolutionDir)external\glew-1.9.0-win32\glew-1.9.0\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(SolutionDir)external\freetype\include;$(SolutionDir)MC2\src;$(SolutionDir)external\excluded\boost;$(SolutionDir)external\excluded\glfw\include\GLFW;$(SolutionDir)external\glew-1.9.0-win32\glew-1.9.0\include;$(SolutionDir)external\lpng166;$(SolutionDir)external\SDL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)external\excluded\boost\stage\lib;$(SolutionDir)external\glew-1.9.0-win32\glew-1.9.0\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'">
+    <IncludePath>$(SolutionDir)external\excluded\boost;$(SolutionDir)external\SDL\include;$(SolutionDir)MC2\src;$(SolutionDir)external\lpng1514;$(SolutionDir)external\glut;$(SolutionDir)external\boost;$(SolutionDir)external\glew-1.9.0-win32\glew-1.9.0\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)external\excluded\boost\stage\lib;$(SolutionDir)external\glut;$(SolutionDir)external\glew-1.9.0-win32\glew-1.9.0\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Static|x64'">
+    <IncludePath>$(SolutionDir)external\excluded\boost;$(SolutionDir)external\SDL\include;$(SolutionDir)MC2\src;$(SolutionDir)external\lpng1514;$(SolutionDir)external\glut;$(SolutionDir)external\boost;$(SolutionDir)external\glew-1.9.0-win32\glew-1.9.0\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)external\excluded\boost\stage\lib;$(SolutionDir)external\glut;$(SolutionDir)external\glew-1.9.0-win32\glew-1.9.0\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <PreprocessorDefinitions>PROJECT_PATH=$(SolutionDir)MC2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <CustomBuildStep>
+      <Command>
+      </Command>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Inputs>
+      </Inputs>
+      <Outputs>
+      </Outputs>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <PreprocessorDefinitions>PROJECT_PATH=$(SolutionDir)MC2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <CustomBuildStep>
+      <Command>
+      </Command>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Inputs>
+      </Inputs>
+      <Outputs>
+      </Outputs>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <PreprocessorDefinitions>PROJECT_PATH=$(SolutionDir)MC2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <CustomBuildStep>
+      <Command>
+      </Command>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Inputs>
+      </Inputs>
+      <Outputs>
+      </Outputs>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug Static|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <PreprocessorDefinitions>PROJECT_PATH=$(SolutionDir)MC2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <CustomBuildStep>
+      <Command>
+      </Command>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Inputs>
+      </Inputs>
+      <Outputs>
+      </Outputs>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);NDEBUG</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);NDEBUG</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release Static|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Camera\Cam.cpp" />
+    <ClCompile Include="src\Camera\FreeCam.cpp" />
+    <ClCompile Include="src\Events\PubSub.cpp" />
+    <ClCompile Include="src\Giffix\Shader.cpp" />
+    <ClCompile Include="src\Giffix\ShaderProgram.cpp" />
+    <ClCompile Include="src\Giffix\Texture.cpp" />
+    <ClCompile Include="src\Giffix\Uniform.cpp" />
+    <ClCompile Include="src\Graphics\Constants.cpp" />
+    <ClCompile Include="src\Graphics\Core\GraphicsCore.cpp" />
+    <ClCompile Include="src\Graphics\Text\Atlas.cpp" />
+    <ClCompile Include="src\Graphics\Text\Text.cpp" />
+    <ClCompile Include="src\Graphics\UI\UI.cpp" />
+    <ClCompile Include="src\Math\quaternion.cpp" />
+    <ClCompile Include="src\Math\util.cpp" />
+    <ClCompile Include="src\Math\vector.cpp" />
+    <ClCompile Include="src\Optimizer\Optimizer.cpp" />
+    <ClCompile Include="src\Player\Player.cpp" />
+    <ClCompile Include="src\Util\my_png.cpp" />
+    <ClCompile Include="src\Util\Perlin.cpp" />
+    <ClCompile Include="src\Util\generic_util.cpp" />
+    <ClCompile Include="src\Visualizer\Visualizer.cpp" />
+    <ClCompile Include="src\Window\Window.cpp" />
+    <ClCompile Include="src\World\SubChunk.cpp" />
+    <ClCompile Include="src\World\World.cpp" />
+    <ClCompile Include="src\World\WorldBlock.cpp" />
+    <ClCompile Include="src\World\WorldChunk.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Block\Block.hpp" />
+    <ClInclude Include="src\Camera\Cam.hpp" />
+    <ClInclude Include="src\Camera\FreeCam.hpp" />
+    <ClInclude Include="src\Events\PubSub.hpp" />
+    <ClInclude Include="src\Events\Subscriptions.hpp" />
+    <ClInclude Include="src\Events\Types\EventData.h" />
+    <ClInclude Include="src\Events\Types\Events.h" />
+    <ClInclude Include="src\Giffix\Shader.hpp" />
+    <ClInclude Include="src\Giffix\ShaderProgram.hpp" />
+    <ClInclude Include="src\Giffix\Texture.hpp" />
+    <ClInclude Include="src\Giffix\Uniform.hpp" />
+    <ClInclude Include="src\Graphics\cgincludes.h" />
+    <ClInclude Include="src\Graphics\Constants.hpp" />
+    <ClInclude Include="src\Graphics\Core\GraphicsCore.hpp" />
+    <ClInclude Include="src\Graphics\Text\Atlas.hpp" />
+    <ClInclude Include="src\Graphics\Text\Text.hpp" />
+    <ClInclude Include="src\Graphics\UI\UI.hpp" />
+    <ClInclude Include="src\Interfaces\Renderable.hpp" />
+    <ClInclude Include="src\Math\math.hpp" />
+    <ClInclude Include="src\Math\matrix.hpp" />
+    <ClInclude Include="src\Math\quaternion.hpp" />
+    <ClInclude Include="src\Math\util.hpp" />
+    <ClInclude Include="src\Math\vector.hpp" />
+    <ClInclude Include="src\Memory\ChunkAllocator.hpp" />
+    <ClInclude Include="src\Memory\WorldStorage.h" />
+    <ClInclude Include="src\Optimizer\Optimizer.h" />
+    <ClInclude Include="src\Player\Player.hpp" />
+    <ClInclude Include="src\Util\my_png.h" />
+    <ClInclude Include="src\Util\Perlin.hpp" />
+    <ClInclude Include="src\Util\generic_util.hpp" />
+    <ClInclude Include="src\Visualizer\Visualizer.hpp" />
+    <ClInclude Include="src\Window\Window.hpp" />
+    <ClInclude Include="src\World\Direction.hpp" />
+    <ClInclude Include="src\World\SubChunk.hpp" />
+    <ClInclude Include="src\World\World.hpp" />
+    <ClInclude Include="src\World\WorldBlock.hpp" />
+    <ClInclude Include="src\World\WorldChunk.hpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ItemGroup>
+    <StaticFiles Include="res\**\*.*" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shaders\world.frag" />
+    <None Include="res\shaders\text.frag" />
+    <None Include="res\shaders\text.vert" />
+    <None Include="res\shaders\world.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\windows\freetype\builds\win32\vc2010\freetype.vcxproj">
+      <Project>{78b079bd-9fc7-4b9e-b4a6-96da0f00248b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\windows\glew\build\vc10\glew_static.vcxproj">
+      <Project>{664e6f0d-6784-4760-9565-d54f8eb1edf4}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\windows\glfw\build\src\glfw.vcxproj">
+      <Project>{d7efd0d9-2ec0-49e5-8a82-015a4c68c26a}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\windows\libpng\projects\vstudio\libpng\libpng.vcxproj">
+      <Project>{d6973076-9317-4ef2-a0b8-b7a18ac0713e}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Target Name="AfterBuild">
+    <Copy SourceFiles="@(StaticFiles)" DestinationFiles="@(StaticFiles->'$(SolutionDir)$(Configuration)\res\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+  </Target>
+</Project>

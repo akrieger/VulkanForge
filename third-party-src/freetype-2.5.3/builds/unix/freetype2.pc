@@ -1,0 +1,14 @@
+prefix="/Users/akrieger/Dropbox/MC2/macos"
+exec_prefix="/Users/akrieger/Dropbox/MC2/macos"
+libdir="/Users/akrieger/Dropbox/MC2/macos/lib"
+includedir="/Users/akrieger/Dropbox/MC2/macos/include/freetype2"
+
+Name: FreeType 2
+URL: http://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 17.2.11
+Requires:
+Requires.private: 
+Libs: -L${libdir} -lfreetype
+Libs.private: -lz
+Cflags: -I${includedir}

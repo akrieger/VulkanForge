@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\..\Eigen_dependency.props" />
+    <None Include="Eigen_internal.props" />
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\Eigen">
+      <Filter>eigen</Filter>
+    </None>
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\Cholesky">
+      <Filter>eigen</Filter>
+    </None>
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\CholmodSupport">
+      <Filter>eigen</Filter>
+    </None>
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\Core">
+      <Filter>eigen</Filter>
+    </None>
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\Dense">
+      <Filter>eigen</Filter>
+    </None>
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\Eigenvalues">
+      <Filter>eigen</Filter>
+    </None>
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\Geometry">
+      <Filter>eigen</Filter>
+    </None>
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\Householder">
+      <Filter>eigen</Filter>
+    </None>
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\IterativeLinearSolvers">
+      <Filter>eigen</Filter>
+    </None>
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\Jacobi">
+      <Filter>eigen</Filter>
+    </None>
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\LU">
+      <Filter>eigen</Filter>
+    </None>
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\MetisSupport">
+      <Filter>eigen</Filter>
+    </None>
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\OrderingMethods">
+      <Filter>eigen</Filter>
+    </None>
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\PardisoSupport">
+      <Filter>eigen</Filter>
+    </None>
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\PaStiXSupport">
+      <Filter>eigen</Filter>
+    </None>
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\QR">
+      <Filter>eigen</Filter>
+    </None>
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\QtAlignedMalloc">
+      <Filter>eigen</Filter>
+    </None>
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\Sparse">
+      <Filter>eigen</Filter>
+    </None>
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\SparseCholesky">
+      <Filter>eigen</Filter>
+    </None>
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\SparseCore">
+      <Filter>eigen</Filter>
+    </None>
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\SparseLU">
+      <Filter>eigen</Filter>
+    </None>
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\SparseQR">
+      <Filter>eigen</Filter>
+    </None>
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\SPQRSupport">
+      <Filter>eigen</Filter>
+    </None>
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\StdDeque">
+      <Filter>eigen</Filter>
+    </None>
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\StdList">
+      <Filter>eigen</Filter>
+    </None>
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\StdVector">
+      <Filter>eigen</Filter>
+    </None>
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\SuperLUSupport">
+      <Filter>eigen</Filter>
+    </None>
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\SVD">
+      <Filter>eigen</Filter>
+    </None>
+    <None Include="..\..\..\..\..\third-party-src\eigen-3.3.3\Eigen\UmfPackSupport">
+      <Filter>eigen</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="eigen">
+      <UniqueIdentifier>{2e026b2a-88b4-4ac0-a9f8-f616bfad24d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

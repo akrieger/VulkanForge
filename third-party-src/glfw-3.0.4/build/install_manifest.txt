@@ -1,0 +1,8 @@
+/Users/akrieger/Dropbox/MC2/macos/include/GLFW/glfw3.h
+/Users/akrieger/Dropbox/MC2/macos/include/GLFW/glfw3native.h
+/Users/akrieger/Dropbox/MC2/macos/lib/cmake/glfw/glfwConfig.cmake
+/Users/akrieger/Dropbox/MC2/macos/lib/cmake/glfw/glfwConfigVersion.cmake
+/Users/akrieger/Dropbox/MC2/macos/lib/cmake/glfw/glfwTargets.cmake
+/Users/akrieger/Dropbox/MC2/macos/lib/cmake/glfw/glfwTargets-noconfig.cmake
+/Users/akrieger/Dropbox/MC2/macos/lib/pkgconfig/glfw3.pc
+/Users/akrieger/Dropbox/MC2/macos/lib/libglfw3.a

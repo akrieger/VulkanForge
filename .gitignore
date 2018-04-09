@@ -1,0 +1,14 @@
+# Build outputs
+.build/
+
+# Default VS stuff
+Debug/
+Release/
+.vs/
+*.suo
+*.sdf
+*.user
+
+# Some other random ones for case sensitive filesystems
+debug/
+release/

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- BeforeClCompile ensures that intermediate directories are made whether
+       you're you're building one file or the whole solution. Also, The v4.0
+       targets properly re-use the BeforeClCompileTargets, as opposed to
+       BuildDependsOn or CompileDependsOn which force including targets at
+       the bottom of the project file. -->
+  <Target Name="MakeRelativeIntermediates" BeforeTargets="BeforeClCompile">
+    <ItemGroup Condition="@(ClCompile) != ''">
+      <!-- You can only add properties to an item group by making a new group.
+           So, you have to make a new group, clear the old one, the move the new
+           group back into the original group. -->
+      <ClCompileCopy Include="@(ClCompile)">
+        <ObjectFileName>$(IntDir)/$([MSBuild]::MakeRelative($(RepoRoot), %(ClCompile.RootDir)%(ClCompile.Directory)))/</ObjectFileName>
+      </ClCompileCopy>
+      <ClCompile Remove="@(ClCompile)"/>
+      <ClCompile Include="@(ClCompileCopy)"/>
+      <ClCompileCopy Remove="@(ClCompileCopy)"/>
+    </ItemGroup>
+  </Target>
+</Project>

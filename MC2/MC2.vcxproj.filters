@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{0663b714-679f-4c2f-9fb3-2e4a0a1bde03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Visualizer">
+      <UniqueIdentifier>{3d48e59a-4cf0-42bb-8af4-5268b9a244db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player">
+      <UniqueIdentifier>{740c8028-2c86-483f-a1e1-46e43e7909d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Optimizer">
+      <UniqueIdentifier>{f50e8202-ccbe-47de-b9a3-c2ab9ebdd50c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World">
+      <UniqueIdentifier>{e60c8cb3-227e-4516-a6ec-547bef3f0f16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{fe94fe51-1452-482f-972e-712d6b21f4d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Events">
+      <UniqueIdentifier>{e2d91f7b-728b-4046-8912-f0106347c9a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{52540f1c-8a6d-4d3c-80a7-ba0fe4ba1fd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Window">
+      <UniqueIdentifier>{d900f548-1690-4ad6-b24e-7d4cb2c41994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{a2c3c927-7be3-4efe-bf4d-ba134c4ba24a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Core">
+      <UniqueIdentifier>{8ef6f726-9433-48f5-a1d6-346208e16fc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Text">
+      <UniqueIdentifier>{8c673d38-9050-45e4-85f7-d3011e5f5d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{bd4aa3d4-cdca-4b15-87b1-858c05e10215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Main">
+      <UniqueIdentifier>{f8be9ea1-89cf-418e-bbda-6e6a48bcaf7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Text">
+      <UniqueIdentifier>{0f1e6835-6f2d-4baa-8bb9-a2cf328deecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Giffix">
+      <UniqueIdentifier>{96adbe81-9b84-4a17-8721-0934003d37cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Block">
+      <UniqueIdentifier>{d684f33c-8742-49d2-948d-acee8833718d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Events\Types">
+      <UniqueIdentifier>{ebd1404b-851a-4292-b597-5e884cbe9593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interfaces">
+      <UniqueIdentifier>{78f0e64c-51fb-45ae-875a-101408280d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Memory">
+      <UniqueIdentifier>{d2d9d92d-7f5f-4d52-b224-c229eab2201e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\UI">
+      <UniqueIdentifier>{983a0187-e391-4f4b-a530-81ef41b0d317}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\World\World.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="src\World\WorldBlock.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="src\World\WorldChunk.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Visualizer\Visualizer.cpp">
+      <Filter>Source Files\Visualizer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Util\Perlin.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\World\SubChunk.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player\Player.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Optimizer\Optimizer.cpp">
+      <Filter>Source Files\Optimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Math\util.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Events\PubSub.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera\Cam.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Window\Window.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Core\GraphicsCore.cpp">
+      <Filter>Source Files\Graphics\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera\FreeCam.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Util\generic_util.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Text\Text.cpp">
+      <Filter>Source Files\Graphics\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Giffix\Shader.cpp">
+      <Filter>Source Files\Giffix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Giffix\ShaderProgram.cpp">
+      <Filter>Source Files\Giffix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Giffix\Uniform.cpp">
+      <Filter>Source Files\Giffix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Constants.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Math\vector.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Math\quaternion.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Util\my_png.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Text\Atlas.cpp">
+      <Filter>Source Files\Graphics\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Giffix\Texture.cpp">
+      <Filter>Source Files\Giffix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\UI\UI.cpp">
+      <Filter>Source Files\Graphics\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Interfaces\Renderable.hpp">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Memory\ChunkAllocator.hpp">
+      <Filter>Source Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Memory\WorldStorage.h">
+      <Filter>Source Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Events\Types\EventData.h">
+      <Filter>Source Files\Events\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Events\Types\Events.h">
+      <Filter>Source Files\Events\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Block\Block.hpp">
+      <Filter>Source Files\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera\FreeCam.hpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera\Cam.hpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Events\PubSub.hpp">
+      <Filter>Source Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Events\Subscriptions.hpp">
+      <Filter>Source Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Giffix\Shader.hpp">
+      <Filter>Source Files\Giffix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Giffix\ShaderProgram.hpp">
+      <Filter>Source Files\Giffix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Giffix\Texture.hpp">
+      <Filter>Source Files\Giffix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Giffix\Uniform.hpp">
+      <Filter>Source Files\Giffix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\cgincludes.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Constants.hpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Text\Text.hpp">
+      <Filter>Source Files\Graphics\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Core\GraphicsCore.hpp">
+      <Filter>Source Files\Graphics\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\math.hpp">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\matrix.hpp">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\quaternion.hpp">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Optimizer\Optimizer.h">
+      <Filter>Source Files\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Player\Player.hpp">
+      <Filter>Source Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Util\generic_util.hpp">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Util\my_png.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Util\Perlin.hpp">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Visualizer\Visualizer.hpp">
+      <Filter>Source Files\Visualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Window\Window.hpp">
+      <Filter>Source Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\World\Direction.hpp">
+      <Filter>Source Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="src\World\SubChunk.hpp">
+      <Filter>Source Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="src\World\World.hpp">
+      <Filter>Source Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="src\World\WorldBlock.hpp">
+      <Filter>Source Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="src\World\WorldChunk.hpp">
+      <Filter>Source Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\vector.hpp">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Text\Atlas.hpp">
+      <Filter>Source Files\Graphics\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\UI\UI.hpp">
+      <Filter>Source Files\Graphics\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\util.hpp">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shaders\text.vert">
+      <Filter>Shaders\Text</Filter>
+    </None>
+    <None Include="res\shaders\text.frag">
+      <Filter>Shaders\Text</Filter>
+    </None>
+    <None Include="res\shaders\world.frag">
+      <Filter>Shaders\Main</Filter>
+    </None>
+    <None Include="res\shaders\world.vert">
+      <Filter>Shaders\Main</Filter>
+    </None>
+  </ItemGroup>
+</Project>

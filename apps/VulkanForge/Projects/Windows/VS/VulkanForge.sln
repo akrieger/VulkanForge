@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libraries", "libraries", "{E3FA1FD0-953E-4AAE-96C2-BB907EDF644B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "third-party", "third-party", "{B89C301D-B906-4C8F-B0FA-86D906274CE3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VulkanForge", "VulkanForge.vcxproj", "{8BB463EE-869A-48A2-B68A-9501F56BF3C1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glfw", "..\..\..\..\..\third-party\glfw\Projects\Windows\VS\glfw.vcxproj", "{5A2A1998-0034-48A0-9B02-D608CC8BF3EB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Eigen", "..\..\..\..\..\third-party\Eigen\Projects\Windows\VS\Eigen.vcxproj", "{A979954E-7485-4607-B5BA-869311D63881}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vulkan", "..\..\..\..\..\third-party\vulkan\Projects\Windows\VS\vulkan.vcxproj", "{FCAC26A7-1C9B-47CF-8666-B7C170B3B164}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VulkanStack", "..\..\..\..\..\libraries\VulkanStack\Projects\Windows\VS\VulkanStack.vcxproj", "{3FB54B76-D054-4D2A-88F0-327E3175C282}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BB463EE-869A-48A2-B68A-9501F56BF3C1}.Debug|x64.ActiveCfg = Debug|x64
+		{8BB463EE-869A-48A2-B68A-9501F56BF3C1}.Debug|x64.Build.0 = Debug|x64
+		{8BB463EE-869A-48A2-B68A-9501F56BF3C1}.Release|x64.ActiveCfg = Release|x64
+		{8BB463EE-869A-48A2-B68A-9501F56BF3C1}.Release|x64.Build.0 = Release|x64
+		{5A2A1998-0034-48A0-9B02-D608CC8BF3EB}.Debug|x64.ActiveCfg = Debug|x64
+		{5A2A1998-0034-48A0-9B02-D608CC8BF3EB}.Debug|x64.Build.0 = Debug|x64
+		{5A2A1998-0034-48A0-9B02-D608CC8BF3EB}.Release|x64.ActiveCfg = Release|x64
+		{5A2A1998-0034-48A0-9B02-D608CC8BF3EB}.Release|x64.Build.0 = Release|x64
+		{A979954E-7485-4607-B5BA-869311D63881}.Debug|x64.ActiveCfg = Debug|x64
+		{A979954E-7485-4607-B5BA-869311D63881}.Debug|x64.Build.0 = Debug|x64
+		{A979954E-7485-4607-B5BA-869311D63881}.Release|x64.ActiveCfg = Release|x64
+		{A979954E-7485-4607-B5BA-869311D63881}.Release|x64.Build.0 = Release|x64
+		{FCAC26A7-1C9B-47CF-8666-B7C170B3B164}.Debug|x64.ActiveCfg = Debug|x64
+		{FCAC26A7-1C9B-47CF-8666-B7C170B3B164}.Debug|x64.Build.0 = Debug|x64
+		{FCAC26A7-1C9B-47CF-8666-B7C170B3B164}.Release|x64.ActiveCfg = Release|x64
+		{FCAC26A7-1C9B-47CF-8666-B7C170B3B164}.Release|x64.Build.0 = Release|x64
+		{3FB54B76-D054-4D2A-88F0-327E3175C282}.Debug|x64.ActiveCfg = Debug|x64
+		{3FB54B76-D054-4D2A-88F0-327E3175C282}.Debug|x64.Build.0 = Debug|x64
+		{3FB54B76-D054-4D2A-88F0-327E3175C282}.Release|x64.ActiveCfg = Release|x64
+		{3FB54B76-D054-4D2A-88F0-327E3175C282}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A2A1998-0034-48A0-9B02-D608CC8BF3EB} = {B89C301D-B906-4C8F-B0FA-86D906274CE3}
+		{A979954E-7485-4607-B5BA-869311D63881} = {B89C301D-B906-4C8F-B0FA-86D906274CE3}
+		{FCAC26A7-1C9B-47CF-8666-B7C170B3B164} = {B89C301D-B906-4C8F-B0FA-86D906274CE3}
+		{3FB54B76-D054-4D2A-88F0-327E3175C282} = {E3FA1FD0-953E-4AAE-96C2-BB907EDF644B}
+	EndGlobalSection
+EndGlobal

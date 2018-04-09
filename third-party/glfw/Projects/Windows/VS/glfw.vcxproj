@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5a2a1998-0034-48a0-9b02-d608cc8bf3eb}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>glfw</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ItemGroup>
+    <None Include="..\..\..\glfw_dependency.props">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="glfw_internal.props" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\third-party-src\glfw-3.2.1\src\context.c" />
+    <ClCompile Include="..\..\..\..\..\third-party-src\glfw-3.2.1\src\egl_context.c" />
+    <ClCompile Include="..\..\..\..\..\third-party-src\glfw-3.2.1\src\init.c" />
+    <ClCompile Include="..\..\..\..\..\third-party-src\glfw-3.2.1\src\input.c" />
+    <ClCompile Include="..\..\..\..\..\third-party-src\glfw-3.2.1\src\monitor.c" />
+    <ClCompile Include="..\..\..\..\..\third-party-src\glfw-3.2.1\src\vulkan.c" />
+    <ClCompile Include="..\..\..\..\..\third-party-src\glfw-3.2.1\src\wgl_context.c" />
+    <ClCompile Include="..\..\..\..\..\third-party-src\glfw-3.2.1\src\win32_init.c" />
+    <ClCompile Include="..\..\..\..\..\third-party-src\glfw-3.2.1\src\win32_joystick.c" />
+    <ClCompile Include="..\..\..\..\..\third-party-src\glfw-3.2.1\src\win32_monitor.c" />
+    <ClCompile Include="..\..\..\..\..\third-party-src\glfw-3.2.1\src\win32_time.c" />
+    <ClCompile Include="..\..\..\..\..\third-party-src\glfw-3.2.1\src\win32_tls.c" />
+    <ClCompile Include="..\..\..\..\..\third-party-src\glfw-3.2.1\src\win32_window.c" />
+    <ClCompile Include="..\..\..\..\..\third-party-src\glfw-3.2.1\src\window.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\third-party-src\glfw-3.2.1\src\egl_context.h" />
+    <ClInclude Include="..\..\..\..\..\third-party-src\glfw-3.2.1\src\internal.h" />
+    <ClInclude Include="..\..\..\..\..\third-party-src\glfw-3.2.1\src\wgl_context.h" />
+    <ClInclude Include="..\..\..\..\..\third-party-src\glfw-3.2.1\src\win32_joystick.h" />
+    <ClInclude Include="..\..\..\..\..\third-party-src\glfw-3.2.1\src\win32_platform.h" />
+  </ItemGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), .vulkanforge_common.props))\.vulkanforge_common.props" />
+    <Import Project="glfw_internal.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\..\vulkan\vulkan_dependency.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\..\vulkan\vulkan_dependency.props" />
+  </ImportGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

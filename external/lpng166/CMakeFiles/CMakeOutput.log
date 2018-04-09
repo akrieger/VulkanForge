@@ -1,0 +1,60 @@
+The system is: Windows - 6.2 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: CompilerIdC, Configuration: Debug Win32 ------
+1>  CMakeCCompilerId.c
+1>  CompilerIdC.vcxproj -> C:\open\Personal\Dropbox\MC2\external\lpng166\CMakeFiles\2.8.11.2\CompilerIdC\.\CompilerIdC.exe
+1>  CMAKE_C_COMPILER=C:\Program Files (x86)\VC\bin\cl.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/open/Personal/Dropbox/MC2/external/lpng166/CMakeFiles/2.8.11.2/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/open/Personal/Dropbox/MC2/external/lpng166/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2808181287
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2808181287, Configuration: Debug Win32 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2808181287.dir\Debug\\" /Fd"C:/open/Personal/Dropbox/MC2/external/lpng166/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2808181287.pdb" /Gd /TC /analyze- /errorReport:prompt testCCompiler.c
+1>  
+1>  testCCompiler.c
+1>  cmTryCompileExec2808181287.vcxproj -> C:\open\Personal\Dropbox\MC2\external\lpng166\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2808181287.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/open/Personal/Dropbox/MC2/external/lpng166/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec652738810
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec652738810, Configuration: Debug Win32 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec652738810.dir\Debug\\" /Fd"C:/open/Personal/Dropbox/MC2/external/lpng166/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec652738810.pdb" /Gd /TC /analyze- /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"
+1>  
+1>  CMakeCCompilerABI.c
+1>  cmTryCompileExec652738810.vcxproj -> C:\open\Personal\Dropbox\MC2\external\lpng166\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec652738810.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+

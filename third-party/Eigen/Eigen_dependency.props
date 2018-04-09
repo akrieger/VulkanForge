@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(RepoRoot)\third-party-src\eigen-3.3.3\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <!--
+  <ItemGroup>
+    <ProjectReference Include="$(MSBuildThisFileDirectory)\Projects\Windows\VS\Eigen.vcxproj">
+      <Project>{a979954e-7485-4607-b5ba-869311d63881}</Project>
+      <LinkLibraryDependencies>$(ShouldLinkDependencies)</LinkLibraryDependencies>
+      <Private>false</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  -->
+</Project>
